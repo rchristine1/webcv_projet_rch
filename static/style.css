@@ -1,0 +1,206 @@
+
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                margin:0px;
+                font-size:10px;
+                height:100%;
+                overflow:auto;               
+            }
+
+            .formpage{
+                height:100vh;
+            }
+
+            .row{
+                height:100%;
+            }
+
+            .pgauche{           
+                margin-left:15%;
+             }
+
+             #partie-gauche{
+                background-color: rgb(3, 3, 31);
+                padding-right:0px;
+                width:18%;
+            }
+
+            .whitesmoke{
+                color:whitesmoke ;
+            }
+
+            #partie-gauche>div>p:first-child{
+                border:1.5px solid #e3c39e;
+                border-radius:10px;
+                padding: 1%;
+                text-align: left;
+                color:#e3c39e;
+                margin-left:15%;
+                margin-right:15%;
+                margin-top:15%;
+            }  
+
+            #partie-gauche>div>figure>img:first-child{
+                width:100%;
+                margin-top:0px;
+                margin-left: 0px;
+                margin-right:0px;
+            }
+
+            .linear-gradient {
+                background: linear-gradient(70deg,#e3c39e, pink);
+              }
+            
+
+            .name{                
+                font-size:20px;
+                text-align: center;
+                margin-top:30px; 
+                margin-left:5%;
+                margin-right:5%;
+                vertical-align:center;
+                padding-top:2%;
+                padding-bottom:2%;
+            }
+
+            #partie-droite{ 
+                padding-left:0px; 
+                padding-bottom:0px;
+                width:68%;
+            }
+
+            #entete-droite{ 
+                background-color:#e3c39e; 
+                text-align: center; 
+                width:100%;
+                padding-top:17px;
+            }
+            .enligne{
+                display:inline-block;
+                vertical-align:top;
+            }
+            #corps-droit>div>p:first-child{
+                   background-color: grey;
+                   border:#e3c39e 2px;                   
+                   text-align: left;
+                   color:white;
+                   font-size:10px;   
+                   margin-left:0%;
+                   margin-right:0%;
+                   margin-top:6%; 
+                   margin-bottom:3%;
+                   padding-left:2%     
+    
+            }
+            .pdroite{
+                margin-left:17%;
+                font-size:10px;
+                margin-bottom:0px;
+                color:rgb(96, 96, 212);
+            }
+
+            .pformation{
+                display:inline-block; 
+                margin-bottom:0px; 
+                                        
+            }
+
+            .spandroite{
+                margin-left:17%;
+                font-size:10px;
+                color:grey
+
+            }
+
+            blockquote{
+                font-size:11px; 
+                margin-bottom:10px; 
+                padding-top:15px;
+                padding-bottom:12px; 
+                padding-left:33px;             
+            }
+
+            p{               
+               margin-left:5%;
+               font-size:10px;
+            }
+
+            h1{               
+               font-size:15px; 
+            }
+
+            h2{               
+               margin:0px; 
+               font-size:15px; 
+
+            }
+
+            h3{
+                margin-left:5%;   
+                font-size:10px;
+            }
+
+            h3:hover{
+                text-decoration: underline;
+                text-underline-position: under;
+                color:rgb(96, 96, 212);
+            }
+
+            h4{
+                margin-left:7%;   
+                font-size:10px;
+                color:grey;                
+            }
+
+            table {
+                border-collapse:collapse;
+                font-size:10px;  
+                margin-left:15%;                
+            }
+
+
+            .bleu{
+                color:rgb(204, 204, 248)   ; 
+            }
+
+            
+
+            tr:nth-child(even){
+                color:rgb(204, 204, 248)   ;     
+            }
+
+            td{
+                vertical-align:center;        
+            }
+
+            .grey{
+                color:grey;
+            }
+
+            .marginleft{
+                margin-left:7%;
+            }
+
+            a:hover{
+                color:rgb(96, 96, 212);
+            }
+
+            .adresseemail{
+                margin-left: 0%;
+            }
+
+            @media screen and (min-width:300px)  {
+                #partie-gauche {
+                width: 205px;
+                }
+            }
+
+            @media screen and (max-width:700px)  {
+                #partie-droite {
+                width: 250px;
+                }
+
+            }
+            
+
+ 
